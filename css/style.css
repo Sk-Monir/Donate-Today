@@ -127,3 +127,44 @@ p{
 .half_width img{
     width: 100%;
 }
+#uptade .subscribe_area{
+    width:50% ;
+    margin: auto;
+    text-align: center;
+    background-color: #FFF4D6;
+    padding: 60px 60px;
+    border-radius: 5px;
+}
+#uptade .subscribe_area input{
+    width: 275px;
+    color:#AA9F9F;
+    background-color:#D9D9D9 ;
+    border:none;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -5px;
+}
+#uptade .subscribe_area input[type="submit"]{
+    color:#FFFFFF;
+    width:150px;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    margin-right: -5px;
+}
+footer{
+    text-align: center;
+    background-color:#0B0D17 ;
+    padding: 30px 0px;
+}
+footer h2{
+    color:#FF5959;
+    font-weight: 400;
+}
+footer p{
+color:#D9DBE1;
+font-weight: 300;
+font-size: 14px;
+}
