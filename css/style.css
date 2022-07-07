@@ -3,6 +3,9 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
+section{
+    margin-bottom: 100px;
+}
 .row{
     display: flex;
 }
@@ -19,14 +22,71 @@ h2{
 h3{
     font-size: 30;
     color:#707070;
-    font-weight: 700;
+    font-weight: 700;  
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 35px;
     color:#707070;
-    font-weight: 400;
+    font-weight: 300;
+    margin: 0px 0px 20px 0px;
 }
 .align_center{
     text-align: center;
 }
+.link_btn{
+    color:#FFFFFF;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sec_ttl{
+    text-align: center;
+}
+.sec_ttl p{
+    padding: 0px  300px 15px 300px ;
+}
 /* common css start */
+#banner{
+    background-image: url(../image/banner-bg.png);
+    background-repeat: no-repeat;
+    padding: 160px 0px;
+}
+#banner h1{
+    padding: 0px  300px 0px 300px  ;
+}
+#banner p{
+    color:#fff;
+    padding: 0px  300px 15px 300px ;
+}
+#donate_sec .amount{
+    width:50%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#donate_sec .amount .amount_item{
+    margin: auto; 
+    background-color: #FAFAFA;
+    padding:8px 14px;
+    border-radius: 4px;
+}
+#donate_sec .amount .amount_item.active{
+    color:#FF5959;
+    background-color:#FFEEEE;
+    border:2px solid #FF5959;
+    border-radius: 4px;
+}
+#donate_sec .donate_form input{
+    color:#B3B3B3;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+    text-align: center;
+    background: none;
+}
+::placeholder{
+    color:#B3B3B3;
+}
