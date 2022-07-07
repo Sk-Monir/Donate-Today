@@ -82,6 +82,7 @@ p{
     width: 50%;
     padding: 10px;
     border: none;
+    font-size: 18px;
     border-bottom: 1px solid #DADADA;
     margin-bottom: 30px;
     text-align: center;
@@ -89,4 +90,40 @@ p{
 }
 ::placeholder{
     color:#B3B3B3;
+}
+#our_plan .our_plan_content{
+    margin: auto;
+    width: 90%;
+}
+#our_plan .our_plan_content .our_plan_item{
+    width: 30%;
+    padding: 50px 10px;
+    margin: 6px;
+    border-radius: 5px;
+}
+#our_plan .our_plan_content .our_plan_item1{
+    background-color:#EDF5F6 ;
+}
+#our_plan .our_plan_content .our_plan_item2{
+    background-color:#FFEEEE ;
+}
+#our_plan .our_plan_content .our_plan_item3{
+    background-color:#FFF4D6 ;
+}
+#our_plan .our_plan_content .our_plan_item h3{
+    color:#121212;
+}
+#our_plan .our_plan_content .our_plan_item p{
+    color: #707070;
+    line-height: normal;
+    margin: 0;
+    font-size: 15px;
+}
+.half_width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half_width img{
+    width: 100%;
 }
