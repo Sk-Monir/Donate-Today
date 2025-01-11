@@ -52,6 +52,7 @@ p{
     background-image: url(../image/banner-bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding: 160px 0px;
 }
 #banner h1{
